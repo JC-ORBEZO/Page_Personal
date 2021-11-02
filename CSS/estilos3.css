@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.contenedor_Cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.contenedor_Cv .contacto_Cv {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.849);
+}
+
+.contenedor_Cv .contacto_Cv span {
+  color: black;
+  margin-left: 15px;
+}
+
+.contacto_Cv h3 {
+  text-align: center;
+  padding-left: 5px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contacto_Cv .telefono {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: rgb(13, 99, 17);
+  margin-left: 5px;
+}
+
+.contacto_Cv .email {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: yellow;
+  margin-left: 5px;
+}
+
+.contacto_Cv .ubicacion {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: crimson;
+  margin-left: 5px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon i {
+  margin-right: 10px;
+  font-size: x-large;
+}
+
+.icon .linke {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: darkblue;
+}
+
+.icon .git {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: black;
+}
+
+.icon .twit {
+  background-color: rgba(245, 245, 245, 0.849);
+  color: rgb(26, 168, 224);
+}
+
+.contenedor_Cv .descripcion {
+  width: 450px;
+  height: 400px; /*
+  background-color: rgb(207, 250, 207);*/
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.descripcion h2 {
+  text-align: center;
+  color: black;
+}
+
+.descripcion ul li {
+  color: black;
+  text-align: justify;
+}
